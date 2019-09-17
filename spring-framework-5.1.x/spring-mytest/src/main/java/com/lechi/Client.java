@@ -16,5 +16,7 @@ public class Client {
 		OutPut output = (OutPut) context.getBean("helloworld");
 
 		output.helloworld();
+
+		System.out.println("hello git");
 	}
 }
